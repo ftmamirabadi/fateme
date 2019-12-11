@@ -92,6 +92,32 @@ header a:hover{
 /* End of HEADER */
 
 
+/* SHOWCASE */
+#showcase{
+    /* background: [background-url] [background-position] / [background-size] [background-repeat]   [background-color]; */
+    background: url('../images/showcase.jpg') top left / cover;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+
+    /* background: url('../images/showcase.jpg') no-repeat 150px 150px; */
+
+    min-height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1 {
+    margin-top: 0;
+    padding-top: 200px;
+    font-size: 55px;
+}
+
+#showcase p {
+    font-size: 20px;
+    margin-top: 0;
+}
+/* End of SHOWCASE */
+
 
 /* NEWSLETTER */
 #newsletter{
@@ -211,6 +237,26 @@ aside .btn{
    
 /* End if middle */
 
+
+/* SERVICES */
+#services{
+    margin-top: 20px;
+}
+#services .box{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#services h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+#services img{
+    width: 90px;
+}
+/* End if SERVICES */
+
 /* FOOTER */
 footer{
     background-color: #e8491d;
@@ -234,7 +280,7 @@ footer p {
     #newsletter{
         padding-bottom: 10px;
     }
-    #newsletter h1 {
+    #newsletter h1 ,.container{
         margin-top: 0;
     }
     #showcase h1{
@@ -250,7 +296,7 @@ footer p {
         padding: 15px;
     }
     .middle textarea{
-        width:385px;
+        width:98%;
         margin-bottom: 20px;
     }
 }
